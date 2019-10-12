@@ -4,12 +4,12 @@ import java.util.*;
 public class Karat_1 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("x : ");
+		System.out.print("x: ");
 		String a = scan.nextLine();
-		System.out.print("y : ");
+		System.out.print("y: ");
 		String b = scan.nextLine();
-		System.out.println("result" +(mul(a,b)); 
-scan.close();
+		System.out.println("result : " + (mul(a,b)); 
+scan.close(); 
 	}
     static String mul(String A, String B)
     {
